@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Resume</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+    <div class="wrapper">
+        <header id="home">
+            <nav>
+               <div class="menu-icon">
+                   <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo" onclick="slowScroll('#home')">
+                   ELVZ
+               </div>
+               <div class="menu">
+                   <ul>
+                       <li><a href="#home" onclick="slowScroll('#home')">Главная</a></li>
+                       <li><a href="#about" onclick="slowScroll('#about')">Обо мне</a></li>
+                       <li><a href="#portfolio" onclick="slowScroll('#portfolio')">Работы</a></li>
+                       <li><a href="#contact" onclick="slowScroll('#contact')">Контакты</a></li>
+                   </ul>
+               </div>
+            </nav>
+            <div id="top">
+               <h1>Александр Лопата</h1>
+               <h1>Резюме</h1>
+            </div>
+        </header>
+        
+        <section id="about">
+           <img id="ava" src="img/qwqwqw.jpg" alt="">
+            <h1>Hello World</h1>
+            <p><strong>Образование</strong></p>
+            <blockquote>
+                В 2011 закончил НТУУ "КПИ" по специальности Инженерная Механика.
+            </blockquote>
+            <p><strong>Опыт работы</strong></p>
+            <blockquote>
+                К сожалению, опыта работы у меня нет. В домашних условиях учу и развиваюсь как могу. Ищу любую не бесплатную работу для получения опыта и новых знаний.
+            </blockquote>
+            <p><strong>Хобби и увлечения</strong></p>
+            <blockquote>
+                Веб, фотошоп, иллюстратор, фотография, музыка.
+            </blockquote>
+        </section>
+        
+        <section id="portfolio">
+           <div class="container">
+               <h1>Работы</h1>
+            <p>
+                Тут со временем будут появлятся мои реальные работы. Однако этот сайт так же является моей работой :)
+            </p>
+           </div>  
+        </section>
+        
+        <section id="contact">
+           <h1>Пишите мне</h1>
+           <div class="form">
+               <form action="send.php" method="post">
+                   <input type="text" placeholder="Имя" name="name" />
+                   <input type="email" placeholder="E-Mail" name="email" />
+                   <input type="text" id="msg" placeholder="Сообщение" name="message" />
+                   <button type="button">Отправить!</button>
+               </form>   
+           </div>
+        </section>
+        
+        <footer>
+            <div class="social">
+              <a href="http://vk.com/alexelvz"><i class="fa fa-vk"></i></a>
+              <a href="https://www.facebook.com/elvzalex"><i class="fa fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/elvzphoto"><i class="fa fa-instagram"></i></a>
+              <a href=""><i class="fa fa-phone"> 093 761 95 57</i></a>
+            </div>
+        </footer>
+        
+    </div>
+
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
