@@ -214,7 +214,7 @@ button {
 }
 
 footer {
-    padding: 3%;
+    padding: 3% 0;
     text-align: center;
     background: #FF6F00;
     align-content: center;
